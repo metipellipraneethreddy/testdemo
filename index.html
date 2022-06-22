@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="background"></div>
+    <img class="bird" src="bird-img.png" alt="bird-img">
+    <div class="message">
+      <form class="" action="index.html" method="post">
+        <input type="text" name="name" id="name" value="" placeholder="Enter your name">
+
+      </form>
+        Press Enter To Start Game
+
+
+
+
+    </div>
+    <div id="score">
+    <h5>Current Scores</h5>
+    </div>
+    <div class="dialogue">
+      <p>Would you like to play again?</p>
+      <form class="" action="index.html" method="post">
+        <button type="button" name="button" onclick="reload()">Yes</button>
+        <button type="button" name="button" onclick="close_window();return false;">No</button>
+      </form>
+    </div>
+    <div class="score">
+        <span class="score_title"></span>
+        <span class="score_val"></span>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
